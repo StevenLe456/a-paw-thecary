@@ -1,5 +1,6 @@
 import db_helper as dbh
 import level_functions as lf
+from os import name, system
 from pathlib import Path
 import random
 from textual.app import App, ComposeResult
@@ -149,7 +150,17 @@ class Game(App):
         yield SQLArea()
         yield BottomButtons()
 
+print("There is a land called Anima whose furry inhabitants used to live in peace. That was, until a calamity hit that plagued the citizens of Anima with various diseases. Now you, the local a-paw-thecary, must use your magical spells to create potions that will cure the various ailments faced by Anima.")
+input("Press ENTER to continue...")
+
+if name == 'nt':
+    _ = system('cls')
+else:
+    _ = system('clear')
+
 lf.lvl_1()
 
 game = Game()
 game.run()
+
+print("This game was created by Rain Le, who struggles with SQL.")

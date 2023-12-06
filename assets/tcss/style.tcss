@@ -1,0 +1,104 @@
+$lavender: rgb(197,193,251);
+$menthol: rgb(195,255,178);
+$calamansi: rgb(255,247,173);
+$diamond: rgb(198,249,255);
+$pink: rgb(248,190,223);
+$bisque: rgb(255,229,197);
+
+HUD {
+    height: 10%;
+}
+
+#level {
+    height: 100%;
+    width: 40%;
+    background: $lavender;
+    color: black;
+}
+
+#stars {
+    height: 100%;
+    width: 40%;
+    background: $menthol;
+    color: black;
+}
+
+#exit {
+    height: 100%;
+    width: 20%;
+    background: $pink;
+}
+
+WizardBox {
+    height: 10%;
+}
+
+#icon1 {
+    height: 100%;
+    width: 20%;
+    background: $diamond;
+    color: black;
+}
+
+#message1 {
+    height: 100%;
+    width: 80%;
+    background: $bisque;
+    color: black;
+}
+
+PatientBox {
+    height: 10%;
+}
+
+#message2 {
+    height: 100%;
+    width: 80%;
+    background: $bisque;
+    color: black;
+}
+
+#icon2 {
+    height: 100%;
+    width: 20%;
+    background: $diamond;
+    color: black;
+}
+
+SQLArea {
+    height: 60%;
+}
+
+#editor {
+    height: 100%;
+    width: 50%;
+    background: $calamansi;
+}
+
+#table {
+    height: 100%;
+    width: 50%;
+    background: $lavender;
+}
+
+BottomButtons {
+    height: 10%;
+}
+
+#run {
+    height: 100%;
+    width: 25%;
+    background: $pink;
+}
+
+#submit {
+    height: 100%;
+    width: 25%;
+    background: $menthol;
+}
+
+#next {
+    height: 100%;
+    width: 50%;
+    background: $calamansi;
+}
